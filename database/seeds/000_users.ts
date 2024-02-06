@@ -23,22 +23,22 @@ export async function seed(knex: Knex): Promise<void> {
         {
             // id: 4,
             name: 'Леила Абиди',
-            role: 'staff',
+            role: 'worker',
         },
         {
             // id: 5,
             name: 'Али Ахмед',
-            role: 'staff',
+            role: 'worker',
         },
         {
             // id: 6,
             name: 'Амина Малик',
-            role: 'staff',
+            role: 'worker',
         },
         {
             // id: 7,
             name: 'Омар Салех',
-            role: 'staff',
+            role: 'worker',
         },
     ]);
 }
