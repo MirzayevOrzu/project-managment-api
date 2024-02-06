@@ -28,7 +28,7 @@ export class KnexConfigService implements KnexModuleOptionsFactory {
             default:
                 return {
                     config: {
-                        client: dbConfig.type,
+                        client: 'postgresql',
                         useNullAsDefault: true,
                         connection: {
                             host: dbConfig.host,
