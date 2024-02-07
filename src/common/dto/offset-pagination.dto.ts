@@ -12,5 +12,5 @@ export class OffsetPaginationDto {
     @IsInt()
     @Min(1)
     @Transform(({ value }) => parseInt(value))
-    limit: number;
+    limit?: number;
 }
